@@ -1,7 +1,7 @@
 const axios = require("axios")
-const urls = ["link project"]
+const urls = ["https://crawlbeed.glitch.me", "https://amelia-official.glitch.me"]
 setInterval(function() {
             urls.forEach(url => {
-            axios.get(url).then(console.log("Pong at " + Date.now())).catch(() => {});
+            axios.get(url).then(console.log("Terping ke glitch kontol! udh online." + Date.now())).catch(() => {});
         })
     }, 60 * 1000);
